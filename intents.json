@@ -1,0 +1,45 @@
+{"intents": [
+    {
+    "tag": "greeting",
+    "patterns": ["Hi", "Hey","Hello", "wassup", "Whats up", "Good day"],
+    "responses": ["Hello there!", "Good to see you again", "Welcome back", "Hi, How can I help you?"],
+    "context_set": ""
+    },
+
+    {
+    "tag": "goodbye",
+    "patterns": ["Cya", "see you later", "goodbye", "bye", "have a good day"],
+    "responses": ["Bye, have a nice day!", "Talk to you later", "Goodbye!"],
+    "context_set": ""
+    },
+
+    {
+    "tag": "name",
+    "patterns": ["What is your name?", "what should I call you", "Who coded you?"],
+    "responses": ["Name's Saiyed, Rushanshah Saiyed", "You can call me Rushan", "I'm Rushan"],
+    "context_set": ""
+    },
+
+    {
+    "tag": "goals",
+    "patterns": ["What do you want to become?", "What do you want to do?","What field are you interested in?", "What are your future career goals?", "What are you interested in?"],
+    "responses": ["I want to become a big data engineer but I'm also very intrigued by the development of machine learning models and would love to apply them in my field."],
+    "context_set": ""
+    },
+
+    
+    {
+    "tag": "shop",
+    "patterns": ["Id like to buy something", "whats on the menu", "what do you sell?", "could i get something to eat", "could you please show me the menu?"],
+    "responses": ["We sell protein supplements.", "Protein Bars: 5$, Protein chocolate shake: 5$"],
+    "context_set": ""
+    },
+
+    {
+    "tag": "hours",
+    "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+    "responses": ["We are open 7am-4pm Monday-Friday!"],
+    "context_set": ""
+     }
+]
+}
